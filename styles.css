@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+#letter-head{
+    padding: 1rem 2rem ;
+}
+.bold-text{
+    font-weight: bold;
+}
+.centered-text{
+    text-align: center;
+}
+.letter-head-left{
+    float: left;
+    width: 50%;
+}
+.letter-head-right{
+    width: 50%;
+    margin-right: 0;
+    float: right;
+    text-align: center;
+}
+hr{
+    border: 1px solid rgb(115, 158, 250);
+    margin-top: 1rem;
+    width: 100%;
+}
+#form-section{
+    width: 90%;
+    padding:0  2rem;
+    margin: auto;
+}
+.first, .second, .third{
+    width: 100%;
+}
+.first{
+    margin-bottom: 1rem;
+}
+.third{
+    margin-top: 1rem;
+}
+.section-head{
+    background-color: rgb(115, 158, 250);
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+.section-one-left, .section-two-left{
+    width: 50%;
+    float: left;
+}
+.section-one-right{
+    width: 50%;
+   display: inline-block;
+    position: relative;
+    margin-top: 2.5rem;
+}
+.section-two-middle, .section-two-right{
+    width: 25%;
+    float: left;
+}
+.section-three-left{
+    width: 75%;
+    float: left;
+}
+.section-three-right{
+    width: 25%;
+   float: right;
+}
+.form-tables{
+    margin-top: 2rem;
+}
+table, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+th{
+    text-align: left;
+}
+td{
+     height: 0.2rem;
+     width: 10%;
+    }
+.no-border{
+    border: none;
+}
+.red-bg{
+    background-color: rgb(255, 192, 203);
+}
+.blue-bg{
+    background-color: rgb(92, 182, 235);
+}
+.green-bg{
+    background-color: rgb(175, 240, 175);
+}
+.questionnaire-large{
+    width: 80%;
+}
+questionnaire-small{
+    width: 10%;
+}
